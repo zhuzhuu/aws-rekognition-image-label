@@ -52,8 +52,8 @@ def detect_labels(photo, bucket):
 
 
 def main():
-    photo = "houston.jpg"
-    bucket = "rekognition-label-images-project"
+    photo = "image_file_name"
+    bucket = "bucket_name"
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
 
